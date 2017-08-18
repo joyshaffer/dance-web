@@ -1,19 +1,29 @@
 .App {
+    background-color: black;
     text-align: center;
 }
 
+img {
+    background-image: url(https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/15241385_10210492957391814_3882234054074936417_n.jpg?oh=0316cf73e14872933a680cb9a7259d36&oe=5A0326B9);
+    background-repeat: no-repeat;
+    width: 40%;
+}
+
 h1 {
-    font-size: 65px;
+    font-size: 50px;
+    font-style: italic;
 }
 
 p {
+    color: white;
     font-size: 20px;
+    font-style: italic;
 }
 
 .App-headings {
-    background-color: lightseagreen;
+    background-color:black;
     height: 150px;
-    padding: 20px;
+    padding: 10px;
     color: whitesmoke;
 }
 
@@ -29,7 +39,7 @@ p {
 }
 
 .nav-links a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 25 px;
 }

@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <div className="App-headings">
-            <h1>Study For Your Dance Exams!</h1>
+            <h1>"I do not try to dance better than anyone else. I only try to dance better than myself" -Mikhail Baryshnikov</h1>
           </div>
           <ul className="nav-links">
             <li>
@@ -38,6 +38,9 @@ class App extends Component {
           <Route path='/notes' render={() => <h1>Notes</h1>} />
           <Route render={() => <p>"Dance is the hidden language of the soul of the body" - Martha Graham</p>} />
         </Switch>
+        <div className="img">
+            <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/15241385_10210492957391814_3882234054074936417_n.jpg?oh=0316cf73e14872933a680cb9a7259d36&oe=5A0326B9" />
+          </div>
       </div>
     )
   }
