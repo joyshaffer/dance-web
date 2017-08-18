@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import { Route, Switch, NavLink } from 'react-router-dom'
 import BodyPositions from './BodyPositions'
+import FeetPosistions from './FeetPositions'
 
 class App extends Component {
   render() {
@@ -28,7 +29,7 @@ class App extends Component {
         </div>
         <Switch>
           <Route path='/body-positions' component={BodyPositions} />
-          <Route path='/feet-positions' render={() => <h1>5 Positions of the Feet and Arms</h1>} />
+          <Route path='/feet-positions' component={FeetPosistions} />
           <Route path='/terms' render={() => <h1>Terms</h1>} />
           <Route path='/notes' render={() => <h1>Notes</h1>} />
           <Route render={() => <p>"Dance is the hidden language of the soul of the body" - Martha Graham</p>} />
