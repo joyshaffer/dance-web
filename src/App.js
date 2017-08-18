@@ -14,10 +14,22 @@ class App extends Component {
             <li>
               <NavLink to="/body-positions">Positions of the body</NavLink>
             </li>
+            <li>
+              <NavLink to="/feet-positions">5 Positions of the Feet and Arms</NavLink>
+            </li>
+            <li>
+              <NavLink to="/terms">Terms</NavLink>
+            </li>
+            <li>
+              <NavLink to="/notes">Add your own notes</NavLink>
+            </li>
           </ul>
         </div>
         <Switch>
           <Route path='/body-positions' render={() => <h1>Body Positions</h1>} />
+          <Route path='/feet-positions' render={() => <h1>5 Positions of the Feet and Arms</h1>} />
+          <Route path='/terms' render={() => <h1>Terms</h1>} />
+          <Route path='/notes' render={() => <h1>Notes</h1>} />
           <Route render={() => <p>"Dance is the hidden language of the soul of the body" - Martha Graham</p>} />
         </Switch>
       </div>
