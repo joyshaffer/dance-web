@@ -20,6 +20,9 @@ class App extends Component {
               <NavLink to="/feet-positions">5 Positions of the Feet and Arms</NavLink>
             </li>
             <li>
+              <NavLink to="/arabesques">3 Cecchetti Arabesques</NavLink>
+            </li>
+            <li>
               <NavLink to="/terms">Terms</NavLink>
             </li>
             <li>
@@ -30,6 +33,7 @@ class App extends Component {
         <Switch>
           <Route path='/body-positions' component={BodyPositions} />
           <Route path='/feet-positions' component={FeetPosistions} />
+          <Route path='/arabesques' render={() => <h1>3 Arabesques</h1>} />
           <Route path='/terms' render={() => <h1>Terms</h1>} />
           <Route path='/notes' render={() => <h1>Notes</h1>} />
           <Route render={() => <p>"Dance is the hidden language of the soul of the body" - Martha Graham</p>} />
